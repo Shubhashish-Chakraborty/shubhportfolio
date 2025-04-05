@@ -7,7 +7,7 @@ import GithubCorner from "../components/GithubCorner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Shubhashish Chakraborty | Portfolio",
   description: "Modern portfolio website",
 };
 
