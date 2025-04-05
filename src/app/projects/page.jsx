@@ -81,7 +81,7 @@ const Page = () => {
                                 image={
                                     <Image
                                         src="/projects/sws.png"
-                                        alt="Stockwise project"
+                                        alt="project Box"
                                         width={400}
                                         height={500}
                                         className="rounded-t-2xl border-b border-white"
@@ -93,12 +93,12 @@ const Page = () => {
                             />
 
                             <ProjectsPanel
-                                projectNumber={3}
+                                projectNumber={2}
                                 detail="React.js, WebSocket"
                                 image={
                                     <Image
                                         src="/projects/convoroom.png"
-                                        alt="Stockwise project"
+                                        alt="project Box"
                                         width={400}
                                         height={500}
                                         className="rounded-t-2xl border-b border-white"
@@ -110,12 +110,28 @@ const Page = () => {
                             />
 
                             <ProjectsPanel
-                                projectNumber={2}
+                                projectNumber={3}
+                                detail="Next.js, Express.js"
+                                image={
+                                    <Image
+                                        src="/projects/bcecode.png"
+                                        alt="Project Box"
+                                        width={400}
+                                        height={500}
+                                        className="rounded-t-2xl border-b border-white"
+                                    />
+                                }
+                                description="I've made this to help my mates to prepare for there practical exam for Computer Engineering Subject in Semester!"
+                                liveSiteLink="https://bcecode.vercel.app/"
+                                githubLink="https://github.com/Shubhashish-Chakraborty/bce-codes"
+                            />
+                            <ProjectsPanel
+                                projectNumber={4}
                                 detail="Next.js, Express.js"
                                 image={
                                     <Image
                                         src="/projects/infino.png"
-                                        alt="Stockwise project"
+                                        alt="Project Box"
                                         width={400}
                                         height={500}
                                         className="rounded-t-2xl border-b border-white"
@@ -124,6 +140,22 @@ const Page = () => {
                                 description="Infino is an e-commerce platform I co-founded with a group of friends, Its launching Soon!"
                                 liveSiteLink="https://infinostore.com"
                                 githubLink="https://github.com/infinostore"
+                            />
+                            <ProjectsPanel
+                                projectNumber={5}
+                                detail="Next.js, Express.js"
+                                image={
+                                    <Image
+                                        src="/projects/pyfilemaster.png"
+                                        alt="Project Box"
+                                        width={400}
+                                        height={500}
+                                        className="rounded-t-2xl border-b border-white"
+                                    />
+                                }
+                                description="PyFileMaster is an open-source Python package that simplifies file handling tasks like reading, writing, and converting between .dat, .csv, and .txt formats with minimal code." 
+                                liveSiteLink="https://pypi.org/project/pyfilemaster/"
+                                githubLink="https://github.com/Shubhashish-Chakraborty/pyfilemaster"
                             />
                         </div>
                     </>
