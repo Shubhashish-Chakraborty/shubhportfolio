@@ -19,7 +19,7 @@ const Page = () => {
     setLoading(true); 
 
     try {
-      const response = await fetch("/api/mail", {
+      const response = await fetch("", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
