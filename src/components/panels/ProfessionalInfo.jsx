@@ -17,13 +17,14 @@ const ProfessionalInfo = ({ category, h1, h2, h3 }) => {
           case "h1":
             return (
               <MainDashboard
-                number={2}
-                h1="I'm actively looking for opportunities to work and gain hands-on experience."
+                number={5}
+                h1="Web Development Intern at Zidio Development"
+                h2="Full Stack Developer at Nuvance Technologies"
                 // l1="- Built 2 responsive React.js apps with 100% browser compatibility"
                 // l2="- Improved UI integration and user experience"
                 // l3="- Ensured clean, maintainable code"
                 // l4="- Created documentation, boosting team efficiency"
-                // h2="Prodigy Infotech"
+                // h2="Full Stack Developer at Nuvance Technologies"
                 // l5="- Built 5 responsive web apps using HTML, CSS, and JavaScript"
                 // l6="- Ensured compatibility across all devices"
                 // l7="- Delivered 5 projects ahead of schedule"
