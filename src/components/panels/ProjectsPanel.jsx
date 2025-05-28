@@ -3,7 +3,7 @@ import React from "react";
 import ProjectsGithub from "@/components/ui/ProjectsGithub";
 
 const ProjectsPanel = ({
-  projectNumber,
+  projectName,
   detail,
   image,
   description,
@@ -14,7 +14,7 @@ const ProjectsPanel = ({
     <div className="flex flex-col justify-center items-start w-[400px]">
       <div className="flex flex-row pb-4 lg:pb-3">
         <div className="font-bold text-blue-custom text-[14px] lg:text-[15px] pr-1 lg:pr-3 lg:pl-3">
-          Project {projectNumber}
+          {projectName}
         </div>
         <div className="text-[14px] lg:text-[15px]">{`// ${detail}`}</div>
       </div>

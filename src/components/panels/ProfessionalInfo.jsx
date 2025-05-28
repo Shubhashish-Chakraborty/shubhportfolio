@@ -17,6 +17,7 @@ const ProfessionalInfo = ({ category, h1, h2, h3 }) => {
           case "h1":
             return (
               <MainDashboard
+                link="https://www.linkedin.com/in/Shubhashish-Chakraborty"
                 number={2}
                 h1="Full Stack Developer at Nuvance Technologies"
                 // l1="- Built 2 responsive React.js apps with 100% browser compatibility"

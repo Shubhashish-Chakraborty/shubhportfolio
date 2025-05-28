@@ -134,8 +134,6 @@ const Page = () => {
             </div>
             <div className="w-full">
                 <div className="text-white-custom border-b border-white w-full h-[35px]"></div>
-                {/* <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7217964089887612928" height="692" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> */}
-                {/* <Image src={pencil} alt="pencil" /> */}
             </div>
         </div>
     );

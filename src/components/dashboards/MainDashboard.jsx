@@ -1,6 +1,7 @@
 import React from "react";
 
 const MainDashboard = ({
+  link,
   number,
   h1,
   h2,
@@ -39,7 +40,7 @@ const MainDashboard = ({
       <div>{items}</div>
       <div className="pl-11 h-80">
 
-        <div>{h1}</div>
+        <div className="cursor-pointer hover:underline" onClick={() => (window.open(link))}>{h1}</div>
         <br /> 
         {renderList([l1, l2, l3, l4], true)}
         <br />

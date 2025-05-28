@@ -76,8 +76,8 @@ const Page = () => {
                     <>
                         <div className="flex-1 overflow-y-auto p-10 flex flex-wrap justify-evenly items-start gap-8 scrollable-div">
                             <ProjectsPanel
-                                projectNumber={1}
-                                detail="Next.js, ExpressJs"
+                                projectName={"StudyWithShubh"}
+                                detail="Nextjs, ExpressJs"
                                 image={
                                     <Image
                                         src="/projects/sws.png"
@@ -93,7 +93,7 @@ const Page = () => {
                             />
 
                             <ProjectsPanel
-                                projectNumber={2}
+                                projectName={"ConvoRoom"}
                                 detail="React.js, WebSocket"
                                 image={
                                     <Image
@@ -110,8 +110,8 @@ const Page = () => {
                             />
 
                             <ProjectsPanel
-                                projectNumber={3}
-                                detail="Next.js, Express.js"
+                                projectName={"BCE_CODE"}
+                                detail="React.js, Tailwind"
                                 image={
                                     <Image
                                         src="/projects/bcecode.png"
@@ -126,24 +126,24 @@ const Page = () => {
                                 githubLink="https://github.com/Shubhashish-Chakraborty/bce-codes"
                             />
                             <ProjectsPanel
-                                projectNumber={4}
-                                detail="Next.js, Express.js"
+                                projectName={"LetMeRecall"}
+                                detail="Next.js, Express.js, OAuth"
                                 image={
                                     <Image
-                                        src="/projects/infino.png"
+                                        src="/projects/letmerecall.png"
                                         alt="Project Box"
                                         width={400}
                                         height={500}
                                         className="rounded-t-2xl border-b border-white"
                                     />
                                 }
-                                description="Infino is an e-commerce platform I co-founded with a group of friends, Its launching Soon!"
-                                liveSiteLink="https://infinostore.com"
-                                githubLink="https://github.com/infinostore"
+                                description="A digital second brain for organizing content with secure authentication and cloud storage integration"
+                                liveSiteLink="https://letmerecall.vercel.app"
+                                githubLink="https://github.com/Shubhashish-Chakraborty/letmerecall"
                             />
                             <ProjectsPanel
-                                projectNumber={5}
-                                detail="Next.js, Express.js"
+                                projectName={"PyFileMaster"}
+                                detail="Python, File Handling"
                                 image={
                                     <Image
                                         src="/projects/pyfilemaster.png"
