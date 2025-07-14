@@ -76,6 +76,23 @@ const Page = () => {
                     <>
                         <div className="flex-1 overflow-y-auto p-10 flex flex-wrap justify-evenly items-start gap-8 scrollable-div">
                             <ProjectsPanel
+                                projectName={"PrepNerdz"}
+                                detail="Next.js, Express.js, PostgreSQL"
+                                image={
+                                    <Image
+                                        src="/projects/prepnerdz.png"
+                                        alt="Project Box"
+                                        width={400}
+                                        height={500}
+                                        className="rounded-t-2xl border-b border-white"
+                                    />
+                                }
+                                description="Fueling Your Academic Success | Your Central Hub for RGPV B.Tech Resources"
+                                liveSiteLink="https://www.prepnerdz.tech"
+                                githubLink="https://github.com/Shubhashish-Chakraborty/prepnerdz"
+                            />
+
+                            <ProjectsPanel
                                 projectName={"StudyWithShubh"}
                                 detail="Nextjs, ExpressJs"
                                 image={
@@ -104,7 +121,7 @@ const Page = () => {
                                         className="rounded-t-2xl border-b border-white"
                                     />
                                 }
-                                description="Convoroom is a real-time chat web app I built for instant communication, users can join rooms and chat live!!." 
+                                description="Convoroom is a real-time chat web app I built for instant communication, users can join rooms and chat live!!."
                                 liveSiteLink="https://convoroom.vercel.app"
                                 githubLink="https://github.com/Shubhashish-Chakraborty/convoroom"
                             />
@@ -126,22 +143,6 @@ const Page = () => {
                                 githubLink="https://github.com/Shubhashish-Chakraborty/bce-codes"
                             />
                             <ProjectsPanel
-                                projectName={"LetMeRecall"}
-                                detail="Next.js, Express.js, OAuth"
-                                image={
-                                    <Image
-                                        src="/projects/letmerecall.png"
-                                        alt="Project Box"
-                                        width={400}
-                                        height={500}
-                                        className="rounded-t-2xl border-b border-white"
-                                    />
-                                }
-                                description="A digital second brain for organizing content with secure authentication and cloud storage integration"
-                                liveSiteLink="https://letmerecall.vercel.app"
-                                githubLink="https://github.com/Shubhashish-Chakraborty/letmerecall"
-                            />
-                            <ProjectsPanel
                                 projectName={"PyFileMaster"}
                                 detail="Python, File Handling"
                                 image={
@@ -153,7 +154,7 @@ const Page = () => {
                                         className="rounded-t-2xl border-b border-white"
                                     />
                                 }
-                                description="PyFileMaster is an open-source Python package that simplifies file handling tasks like reading, writing, and converting between .dat, .csv, and .txt formats with minimal code." 
+                                description="PyFileMaster is an open-source Python package that simplifies file handling tasks like reading, writing, and converting between .dat, .csv, and .txt formats with minimal code."
                                 liveSiteLink="https://pypi.org/project/pyfilemaster/"
                                 githubLink="https://github.com/Shubhashish-Chakraborty/pyfilemaster"
                             />
