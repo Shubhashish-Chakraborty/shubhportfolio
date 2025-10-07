@@ -64,7 +64,7 @@ const Header = () => {
         </div>
 
         <div className="hidden lg:flex lg:border-white lg:border-r h-full items-center cursor-pointer hover:bg-black-400 hover:text-white-custom">
-          <button
+          {/* <button
             className={`w-full h-full px-6 hover:text-white ${
               activeButton === "about-me"
                 ? "border-b-2 border-yellow-exclusive text-white-custom"
@@ -73,7 +73,7 @@ const Header = () => {
             onClick={() => handleButtonClick("/about-me", "about-me")}
           >
             _about-me
-          </button>
+          </button> */}
         </div>
 
         <div className="hidden lg:flex lg:border-white lg:border-r h-full items-center cursor-pointer hover:bg-black-400 hover:text-white-custom">
@@ -112,7 +112,7 @@ const Header = () => {
           >
             _home
           </button>
-          <button
+          {/* <button
             className={`block px-4 py-2 w-full text-left ${
               activeButton === "about-me"
                 ? "bg-black-400 text-white-custom"
@@ -121,7 +121,7 @@ const Header = () => {
             onClick={() => handleButtonClick("/about-me", "about-me")}
           >
             _about-me
-          </button>
+          </button> */}
           <button
             className={`block px-4 py-2 w-full text-left ${
               activeButton === "projects"

@@ -4,7 +4,6 @@ import Twitter from "./ui/Twitter";
 import Instagram from "./ui/Instagram";
 import Github from "./ui/Github";
 import Linkedin from "./ui/Linkedin";
-import { Upwork } from "@/icons/Upwork";
 
 const Footer = () => {
   const handleTwitterRedirecting = () => {
@@ -23,9 +22,6 @@ const Footer = () => {
     window.open("https://github.com/Shubhashish-Chakraborty/", "_blank");
   };
 
-  const handleUpworkRedirecting = () => {
-    window.open("https://www.upwork.com/freelancers/~018880ca3d0d892eac", "_blank");
-  };
 
   return (
     <footer className="h-[49px] lg:h-[50px] border-white border-t font-fira-code text-gray-custom flex justify-between items-center">
@@ -57,20 +53,13 @@ const Footer = () => {
             <Linkedin />
           </button>
         </div>
+
         <div
-          className="pr-6 pl-6 lg:border-white lg:border-r h-full flex items-center cursor-pointer hover:text-white-custom"
-          onClick={handleUpworkRedirecting}
-        >
-          <button>
-            <Upwork size={27}/>
-          </button>
-        </div>
-      </div>
-      <div
-        className="cursor-pointer pl-6 pr-6 lg:border-white lg:border-l h-full flex items-center hover:text-white-custom"
+        className="cursor-pointer pl-6 pr-6 lg:border-white lg:border-r lg:border-l h-full flex items-center hover:text-white-custom"
         onClick={handleGithubRedirecting}
       >
         <Github />
+      </div>
       </div>
     </footer>
   );

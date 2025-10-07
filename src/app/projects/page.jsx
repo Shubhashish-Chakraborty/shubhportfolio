@@ -93,20 +93,20 @@ const Page = () => {
                             />
 
                             <ProjectsPanel
-                                projectName={"StudyWithShubh"}
-                                detail="Nextjs, ExpressJs"
+                                projectName={"AirQ"}
+                                detail="Next.js, Node.js, Python, PostgreSQL"
                                 image={
                                     <Image
-                                        src="/projects/sws.png"
-                                        alt="project Box"
+                                        src="/projects/airq.png"
+                                        alt="Project Box"
                                         width={400}
                                         height={500}
                                         className="rounded-t-2xl border-b border-white"
                                     />
                                 }
-                                description="studywithshubh is my self-built tech platform showcasing my skills in full-stack development, and teaching."
-                                liveSiteLink="https://www.studywithshubh.tech"
-                                githubLink="https://github.com/studywithshubh"
+                                description="AirQ is a full-stack web app built for the NASA Space Apps Challenge that delivers real-time and predictive air quality data worldwide."
+                                liveSiteLink="https://airq-nasa.vercel.app"
+                                githubLink="https://github.com/nasahack25/airq"
                             />
 
                             <ProjectsPanel
