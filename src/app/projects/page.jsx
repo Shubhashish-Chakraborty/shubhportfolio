@@ -21,7 +21,7 @@ const Page = () => {
 
     return (
         <div className="h-[calc(100%-100px)] text-gray-custom font-fira-code flex ">
-            <div className="border-r border-white w-[391px] hidden lg:block">
+            {/* <div className="border-r border-white w-[391px] hidden lg:block">
                 <div className="flex flex-row text-white-custom border-b border-white w-full h-[35px] justify-start items-center text-[14px] cursor-pointer">
                     <div className="pl-2 flex justify-center items-center">
                         <DownIcon />
@@ -60,7 +60,7 @@ const Page = () => {
                         <div className="pl-1">Expressjs</div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="w-full h-full flex flex-col">
                 <div className="hidden lg:flex flex-row text-white-custom border-b border-white w-full h-[35px] justify-start items-center text-[14px] cursor-pointer">
                     <div className="pl-4">page.tsx</div>
