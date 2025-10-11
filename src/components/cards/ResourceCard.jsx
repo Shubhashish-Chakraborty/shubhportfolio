@@ -34,7 +34,9 @@ export const ResourceCard = ({ id, title, description, link, thumbnail, initialL
     return (
         <div className="bg-gray-800 border text-white-custom border-gray-700 rounded-xl overflow-hidden flex flex-col shadow-lg hover:shadow-yellow-500/10 hover:-translate-y-1 transition-all duration-300">
             {/* Thumbnail */}
-            <div className="h-48 bg-gray-700 flex items-center justify-center">
+            <div onClick={() => {
+                window.location.href = link;
+            }} className="h-48 hover:cursor-pointer bg-gray-700 flex items-center justify-center">
                 <img src={thumbnail} alt={`${title} thumbnail`} className="w-full h-full object-cover" />
             </div>
 
