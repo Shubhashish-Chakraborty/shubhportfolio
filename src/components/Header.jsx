@@ -52,11 +52,10 @@ const Header = () => {
 
         <div className="hidden lg:flex lg:border-white lg:border-r h-full items-center cursor-pointer hover:bg-black-400 hover:text-white-custom">
           <button
-            className={`w-full h-full px-6 hover:text-white ${
-              activeButton === "_home"
+            className={`w-full h-full px-6 hover:text-white ${activeButton === "_home"
                 ? "border-b-2 border-yellow-exclusive text-white-custom"
                 : ""
-            }`}
+              }`}
             onClick={() => handleButtonClick("/", "_home")}
           >
             _home
@@ -78,14 +77,33 @@ const Header = () => {
 
         <div className="hidden lg:flex lg:border-white lg:border-r h-full items-center cursor-pointer hover:bg-black-400 hover:text-white-custom">
           <button
-            className={`w-full h-full px-6 hover:text-white ${
-              activeButton === "projects"
+            className={`w-full h-full px-6 hover:text-white ${activeButton === "projects"
                 ? "border-b-2 border-yellow-exclusive text-white-custom"
                 : ""
-            }`}
+              }`}
             onClick={() => handleButtonClick("/projects", "projects")}
           >
             _projects
+          </button>
+        </div>
+
+        <div className="hidden lg:flex lg:border-white lg:border-r h-full items-center cursor-pointer hover:bg-black hover:text-white-custom font-bold">
+          {/* The button is now a flex container to align the text and the dot */}
+          <button
+            className={`w-full h-full px-6 flex items-center justify-center gap-2 hover:text-white ${activeButton === "resources"
+                ? "border-b-2 border-yellow-exclusive text-white-custom bg-black"
+                : ""
+              }`}
+            onClick={() => handleButtonClick("/resources", "resources")}
+          >
+            _Resources
+            {/* This is the blinking dot element */}
+            {/* It's composed of two spans: one for the expanding 'ping' animation 
+        and another for the solid dot that stays visible. */}
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-yellow-exclusive"></span>
+            </span>
           </button>
         </div>
       </div>
@@ -96,18 +114,16 @@ const Header = () => {
         </div>
 
         <div
-          className={`absolute top-16 right-0 bg-black-100 text-gray-custom w-40 rounded-lg shadow-lg transition-all duration-200 ease-[cubic-bezier(0.16, 1, 0.3, 1)] transform-gpu origin-top-right text-[17px] ${
-            dropdownOpen
+          className={`absolute top-16 right-0 bg-black-100 text-gray-custom w-40 rounded-lg shadow-lg transition-all duration-200 ease-[cubic-bezier(0.16, 1, 0.3, 1)] transform-gpu origin-top-right text-[17px] ${dropdownOpen
               ? "scale-100 opacity-100"
               : "scale-95 opacity-0 pointer-events-none"
-          }`}
+            }`}
         >
           <button
-            className={`block px-4 py-2 w-full text-left ${
-              activeButton === "_home"
+            className={`block px-4 py-2 w-full text-left ${activeButton === "_home"
                 ? "bg-black-400 text-white-custom"
                 : ""
-            }`}
+              }`}
             onClick={() => handleButtonClick("/", "_home")}
           >
             _home
@@ -123,24 +139,31 @@ const Header = () => {
             _about-me
           </button> */}
           <button
-            className={`block px-4 py-2 w-full text-left ${
-              activeButton === "projects"
+            className={`block px-4 py-2 w-full text-left ${activeButton === "projects"
                 ? "bg-black-400 text-white-custom"
                 : ""
-            }`}
+              }`}
             onClick={() => handleButtonClick("/projects", "projects")}
           >
             _projects
           </button>
-          <button
-            className={`block px-4 py-2 w-full text-left ${
-              activeButton === "contact-me"
+          {/* <button
+            className={`block px-4 py-2 w-full text-left ${activeButton === "contact-me"
                 ? "bg-black-400 text-white-custom"
                 : ""
-            }`}
+              }`}
             onClick={() => handleButtonClick("/contact-me", "contact-me")}
           >
             _contact-me
+          </button> */}
+          <button
+            className={`block px-4 py-2 w-full text-left ${activeButton === "resources"
+                ? "bg-black-400 text-white-custom"
+                : ""
+              }`}
+            onClick={() => handleButtonClick("/resources", "resources")}
+          >
+            _Resources
           </button>
         </div>
       </div>
