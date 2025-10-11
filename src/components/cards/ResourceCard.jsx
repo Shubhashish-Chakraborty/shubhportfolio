@@ -57,8 +57,8 @@ export const ResourceCard = ({ id, title, description, link, thumbnail, initialL
                             </button>
                             <span className="text-white font-medium text-sm">{likeCount}</span>
                         </div>
-                        <button onClick={() => setShowShareModal(true)} className="text-gray-400 hover:text-yellow-500 transition-colors">
-                            <ShareIcon />
+                        <button onClick={() => setShowShareModal(true)} className="text-gray-400 mb-1 hover:text-yellow-500 transition-colors">
+                            <ShareIcon className="w-8 h-8" />
                         </button>
                     </div>
                 </div>
