@@ -7,7 +7,7 @@ export default function Resources() {
         {
             id: 'dsa-cpp',
             title: 'The COMPLETE DSA Roadmap',
-            description: 'A step-by-step guide to master Data Structures & Algorithms, from fundamentals to advanced topics for interview prep.',
+            description: 'A step-by-step guide to master Data Structures & Algorithms, from fundamentals to advanced topics.(Focused in C++)',
             link: '/resources/dsa-cpp',
             thumbnail: '/thumbnails/dsacpp.png',
             initialLikes: 56
