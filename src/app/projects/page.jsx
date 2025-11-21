@@ -110,6 +110,23 @@ const Page = () => {
                             />
 
                             <ProjectsPanel
+                                projectName={"Big Wig Social"}
+                                detail="Next.js"
+                                image={
+                                    <Image
+                                        src="/projects/bigwigsocial.png"
+                                        alt="Project Box"
+                                        width={400}
+                                        height={500}
+                                        className="rounded-t-2xl border-b border-white"
+                                    />
+                                }
+                                description="Built a modern, high-performance website for a digital marketing agency with a sleek UI, optimized SEO structure, and seamless user experience."
+                                liveSiteLink="https://bigwigsocial.com"
+                                githubLink="https://github.com/Shubhashish-Chakraborty"
+                            />
+
+                            <ProjectsPanel
                                 projectName={"ConvoRoom"}
                                 detail="React.js, WebSocket"
                                 image={
