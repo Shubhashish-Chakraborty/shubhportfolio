@@ -80,7 +80,7 @@ const Page = () => {
                                 detail="Next.js, Express.js, PostgreSQL"
                                 image={
                                     <Image
-                                        src="/projects/prepnerdz.png"
+                                        src="/projects/prepnerdz2.png"
                                         alt="Project Box"
                                         width={400}
                                         height={500}
@@ -107,6 +107,23 @@ const Page = () => {
                                 description="AirQ is a full-stack web app built for the NASA Space Apps Challenge that delivers real-time and predictive air quality data worldwide."
                                 liveSiteLink="https://airq-nasa.vercel.app"
                                 githubLink="https://github.com/nasahack25/airq"
+                            />
+
+                            <ProjectsPanel
+                                projectName={"Tech & Innovation"}
+                                detail="React.JS"
+                                image={
+                                    <Image
+                                        src="/projects/techandinnovation.png"
+                                        alt="Project Box"
+                                        width={400}
+                                        height={500}
+                                        className="rounded-t-2xl border-b border-white"
+                                    />
+                                }
+                                description="Developed the official full-stack platform for TechAndInnovation, a premier student-led technical club dedicated to fostering engineering excellence."
+                                liveSiteLink="https://techandinnovation.org"
+                                githubLink="https://github.com/techandinnovation"
                             />
 
                             <ProjectsPanel
