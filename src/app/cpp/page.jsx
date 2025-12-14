@@ -2,7 +2,7 @@
 import { Redirecting } from '@/components/loader/Redirect';
 import { useEffect } from 'react';
 
-const PythonRedirect = () => {
+const CplusplusRedirect = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             window.location.href =
@@ -15,4 +15,4 @@ const PythonRedirect = () => {
     return <Redirecting />;
 };
 
-export default PythonRedirect;
+export default CplusplusRedirect;

@@ -2,7 +2,7 @@
 import { Redirecting } from '@/components/loader/Redirect';
 import { useEffect } from 'react';
 
-const PythonRedirect = () => {
+const GoRedirect = () => {
     useEffect(() => {
         // Delay a bit just so the message can render
         const timer = setTimeout(() => {
@@ -16,4 +16,4 @@ const PythonRedirect = () => {
     return <Redirecting />;
 };
 
-export default PythonRedirect;
+export default GoRedirect;
