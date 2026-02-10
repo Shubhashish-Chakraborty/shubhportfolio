@@ -32,7 +32,7 @@ export default function ResourceDetailPage() {
         // --- Condition for the DSA C++ Notion Doc ---
         // Add more 'else if' blocks here for future resources
         if (id === 'dsa-cpp') {
-            const notionEmbedUrl = "https://chivalrous-hydrofoil-427.notion.site/ebd/2894a80d73c1801783b5eeceb084b33d"; 
+            const notionEmbedUrl = "https://chivalrous-hydrofoil-427.notion.site/The-COMPLETE-Data-Structures-Algorithms-Roadmap-2894a80d73c1801783b5eeceb084b33d"; 
 
             return (
                 <div className="w-full h-full">
