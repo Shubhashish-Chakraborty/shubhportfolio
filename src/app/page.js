@@ -101,10 +101,8 @@ export default function Home() {
                             <Typewriter
                                 options={{
                                     strings: [
-                                        "Software Engineer",
-                                        "Full-Stack Developer",
-                                        "Backend Enthusiast",
-                                        "Web3/Blockchain Developer",
+                                        "Software Developer",
+                                        "AI Engineer",
                                     ],
                                     autoStart: true,
                                     loop: true,
@@ -177,11 +175,11 @@ export default function Home() {
                     }}
                 >
                     <Image
-                        src="/photos/winnerNoBg.png"
+                        src="/photos/shubh.png"
                         alt="photo"
-                        width={350}
-                        height={350}
-                        className="rounded-xl"
+                        width={500}
+                        height={500}
+                        className="rounded-full"
                     />
                 </div>
             </div>
